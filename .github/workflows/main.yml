@@ -1,0 +1,24 @@
+
+name: Run Selenium Test
+
+on:
+  push:
+    branches: ["master"]
+
+
+jobs:
+  test:
+    runs-on: windows-latest  # Spécifie que le job s'exécute sur Windows
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          java-version: "17"
+          cache: maven
+          distribution: "temurin"
+
+      - uses: browser-actions/setup-chrome@latest
+      - run: mvn clean test
+
+      # Ajoutez ici d'autres étapes de votre workflow
+
