@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="106.821" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="103.904" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\PC\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\PC\AppData\Local\Temp\surefire7849726774616022856\surefirebooter-20240402140142907_3.jar C:\Users\PC\AppData\Local\Temp\surefire7849726774616022856 2024-04-02T14-01-41_986-jvmRun1 surefire-20240402140142907_1tmp surefire_0-20240402140142907_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\PC\AppData\Local\Temp\surefire18282917901265258475\surefirebooter-20240402214854609_3.jar C:\Users\PC\AppData\Local\Temp\surefire18282917901265258475 2024-04-02T21-48-53_820-jvmRun1 surefire-20240402214854609_1tmp surefire_0-20240402214854609_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\PC\IdeaProjects\TodoApplicationProject\target\test-classes;C:\Users\PC\IdeaProjects\TodoApplicationProject\target\classes;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\PC\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\PC\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\PC\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\PC\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\PC\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\PC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\PC\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\PC\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\PC\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\PC\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\PC\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\PC\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\PC\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\PC\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\PC\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\PC\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\PC\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\PC\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\PC\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\PC\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\PC\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\PC\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\PC\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\PC\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\PC\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\PC\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\PC\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\PC\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\PC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\PC\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\PC\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\PC\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\PC\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\PC\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\PC\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\PC\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\PC\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\PC\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\PC\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\PC\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\PC\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\PC\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\PC\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\PC\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\PC\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\PC\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\PC\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\PC\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\PC\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\PC\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\PC\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\PC\.m2\repository\org\slf4j\slf4j-simple\1.7.32\slf4j-simple-1.7.32.jar;C:\Users\PC\.m2\repository\io\qameta\allure\allure-testng\2.26.0\allure-testng-2.26.0.jar;C:\Users\PC\.m2\repository\io\qameta\allure\allure-java-commons\2.26.0\allure-java-commons-2.26.0.jar;C:\Users\PC\.m2\repository\io\qameta\allure\allure-model\2.26.0\allure-model-2.26.0.jar;C:\Users\PC\.m2\repository\io\qameta\allure\allure-test-filter\2.26.0\allure-test-filter-2.26.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\PC\AppData\Local\Temp\surefire7849726774616022856\surefirebooter-20240402140142907_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\PC\AppData\Local\Temp\surefire18282917901265258475\surefirebooter-20240402214854609_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
@@ -60,22 +60,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="souldbeableTologinWithemailandPassword" classname="com.qacart.todo.testcases.LoginTest" time="10.546">
-    <system-err><![CDATA[[TestNG-test-Surefire test-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+  <testcase name="souldbeableTologinWithemailandPassword" classname="com.qacart.todo.testcases.LoginTest" time="8.335">
+    <system-err><![CDATA[[TestNG-test-Surefire test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[TestNG-test-Surefire test-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
 [TestNG-test-Surefire test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
-[TestNG-test-Surefire test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
 [TestNG-test-Surefire test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
 [TestNG-test-Surefire test-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
 [TestNG-test-Surefire test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
-????? 02, 2024 2:02:10 ? org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+????? 02, 2024 9:49:43 ? org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
-????? 02, 2024 2:02:10 ? org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+????? 02, 2024 9:49:43 ? org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
-????? 02, 2024 2:02:10 ? org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+????? 02, 2024 9:49:43 ? org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
 ]]></system-err>
   </testcase>
-  <testcase name="ShouldBeabletoAddnewTOdo" classname="com.qacart.todo.testcases.TodoTest" time="56.055">
+  <testcase name="ShouldBeabletoAddnewTOdo" classname="com.qacart.todo.testcases.TodoTest" time="36.259">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://todo.qacart.com/api/v1/users/register
 Proxy:			<none>
@@ -89,10 +89,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "gavin.hamill@yahoo.com",
-    "firstName": "Lois",
-    "lastName": "Rippin",
-    "password": "hd31noej"
+    "email": "annita.hagenes@hotmail.com",
+    "firstName": "Lila",
+    "lastName": "Hermiston",
+    "password": "lnqxhe5jqeznax"
 }
 Request method:	POST
 Request URI:	https://todo.qacart.com/api/v1/users/register
@@ -107,90 +107,90 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "madge.mohr@hotmail.com",
-    "firstName": "Joan",
-    "lastName": "Gottlieb",
-    "password": "ygk36vlbz0k4ojz"
+    "email": "cliff.stamm@yahoo.com",
+    "firstName": "Mario",
+    "lastName": "Hansen",
+    "password": "r72lbxeakspt"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712062959&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=uKN0YVdFSRXXo0ucYPBlO7kWQvpmDIxNX%2FZa15j8xp4%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712062959&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=uKN0YVdFSRXXo0ucYPBlO7kWQvpmDIxNX%2FZa15j8xp4%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712091007&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=cPcDg5KZwB%2BY6OBV883DotPi8nM8mvnZLXlk5FMPFMk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712091007&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=cPcDg5KZwB%2BY6OBV883DotPi8nM8mvnZLXlk5FMPFMk%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGMwMWVmZmU5M2QxMDAxNDZiZGViYyIsImZpcnN0TmFtZSI6IkpvYW4iLCJsYXN0TmFtZSI6IkdvdHRsaWViIiwiaWF0IjoxNzEyMDYyOTU5fQ.3mIxOGY5ySzA4GtVfDNhIrtAcxH9uh457mfL64azD5c; Path=/
-Set-Cookie: userID=j%3A%22660c01effe93d100146bdebc%22; Path=/
-Set-Cookie: firstName=Joan; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGM2ZjgwODFkYzcxMDAxNGI3NjdhNSIsImZpcnN0TmFtZSI6IkxpbGEiLCJsYXN0TmFtZSI6Ikhlcm1pc3RvbiIsImlhdCI6MTcxMjA5MTAwOH0.YK1_KV01Q-KZ3ydf4nIqET_lF-p46MTreZhdhe8FhDc; Path=/
+Set-Cookie: userID=j%3A%22660c6f8081dc710014b767a5%22; Path=/
+Set-Cookie: firstName=Lila; Path=/
 Content-Type: application/json; charset=utf-8
-Content-Length: 277
-Etag: W/"115-0Mq4neV6yukIblBKRPSXaGP4LvQ"
-Date: Tue, 02 Apr 2024 13:02:39 GMT
+Content-Length: 278
+Etag: W/"116-u+ugNoJGY/0PRMjtCsDgep20064"
+Date: Tue, 02 Apr 2024 20:50:08 GMT
 Via: 1.1 vegur
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGMwMWVmZmU5M2QxMDAxNDZiZGViYyIsImZpcnN0TmFtZSI6IkpvYW4iLCJsYXN0TmFtZSI6IkdvdHRsaWViIiwiaWF0IjoxNzEyMDYyOTU5fQ.3mIxOGY5ySzA4GtVfDNhIrtAcxH9uh457mfL64azD5c",
-    "userID": "660c01effe93d100146bdebc",
-    "firstName": "Joan"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGM2ZjgwODFkYzcxMDAxNGI3NjdhNSIsImZpcnN0TmFtZSI6IkxpbGEiLCJsYXN0TmFtZSI6Ikhlcm1pc3RvbiIsImlhdCI6MTcxMjA5MTAwOH0.YK1_KV01Q-KZ3ydf4nIqET_lF-p46MTreZhdhe8FhDc",
+    "userID": "660c6f8081dc710014b767a5",
+    "firstName": "Lila"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712062959&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=uKN0YVdFSRXXo0ucYPBlO7kWQvpmDIxNX%2FZa15j8xp4%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712062959&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=uKN0YVdFSRXXo0ucYPBlO7kWQvpmDIxNX%2FZa15j8xp4%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712091007&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=cPcDg5KZwB%2BY6OBV883DotPi8nM8mvnZLXlk5FMPFMk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712091007&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=cPcDg5KZwB%2BY6OBV883DotPi8nM8mvnZLXlk5FMPFMk%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGMwMWVmZmU5M2QxMDAxNDZiZGViYSIsImZpcnN0TmFtZSI6IkxvaXMiLCJsYXN0TmFtZSI6IlJpcHBpbiIsImlhdCI6MTcxMjA2Mjk1OX0.0IEWjaoDeXmdeLQ9ugJ-IUkWPlp2uxkfkneidDYqhJI; Path=/
-Set-Cookie: userID=j%3A%22660c01effe93d100146bdeba%22; Path=/
-Set-Cookie: firstName=Lois; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGM2ZjgwODFkYzcxMDAxNGI3NjdhMyIsImZpcnN0TmFtZSI6Ik1hcmlvIiwibGFzdE5hbWUiOiJIYW5zZW4iLCJpYXQiOjE3MTIwOTEwMDh9.52y7EFvzks2xUmbU93sD1nX3KF1r2CRWsInRBT9xS-g; Path=/
+Set-Cookie: userID=j%3A%22660c6f8081dc710014b767a3%22; Path=/
+Set-Cookie: firstName=Mario; Path=/
 Content-Type: application/json; charset=utf-8
-Content-Length: 274
-Etag: W/"112-Teg9YfiTAeYsNf7QE58kPysuj+M"
-Date: Tue, 02 Apr 2024 13:02:39 GMT
+Content-Length: 276
+Etag: W/"114-yWPh8MRmb8EuKdq/cBfjl8b/v0c"
+Date: Tue, 02 Apr 2024 20:50:08 GMT
 Via: 1.1 vegur
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGMwMWVmZmU5M2QxMDAxNDZiZGViYSIsImZpcnN0TmFtZSI6IkxvaXMiLCJsYXN0TmFtZSI6IlJpcHBpbiIsImlhdCI6MTcxMjA2Mjk1OX0.0IEWjaoDeXmdeLQ9ugJ-IUkWPlp2uxkfkneidDYqhJI",
-    "userID": "660c01effe93d100146bdeba",
-    "firstName": "Lois"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGM2ZjgwODFkYzcxMDAxNGI3NjdhMyIsImZpcnN0TmFtZSI6Ik1hcmlvIiwibGFzdE5hbWUiOiJIYW5zZW4iLCJpYXQiOjE3MTIwOTEwMDh9.52y7EFvzks2xUmbU93sD1nX3KF1r2CRWsInRBT9xS-g",
+    "userID": "660c6f8081dc710014b767a3",
+    "firstName": "Mario"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712062967&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=SYrzgkmsPaOGXUoNgK%2B%2BOc8x9GUbLcaHNvaZZClG1Zs%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712062967&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=SYrzgkmsPaOGXUoNgK%2B%2BOc8x9GUbLcaHNvaZZClG1Zs%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712091015&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=Gf6GgtqeKTn0sFavoZ0IBE3S%2BQ%2BvCkrhKaweSC9EA9M%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712091015&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=Gf6GgtqeKTn0sFavoZ0IBE3S%2BQ%2BvCkrhKaweSC9EA9M%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 161
-Etag: W/"a1-tZbGUPohOU/b+hnpn86W6Rsbjjo"
-Date: Tue, 02 Apr 2024 13:02:47 GMT
+Etag: W/"a1-Xb1KBAmZnuFL8v3SOlvJOfsLnAM"
+Date: Tue, 02 Apr 2024 20:50:15 GMT
 Via: 1.1 vegur
 
 {
     "isCompleted": false,
-    "_id": "660c01f7fe93d100146bdebe",
+    "_id": "660c6f8781dc710014b767a7",
     "item": "Learn Selenium",
-    "userID": "660c01effe93d100146bdebc",
-    "createdAt": "2024-04-02T13:02:47.032Z",
+    "userID": "660c6f8081dc710014b767a5",
+    "createdAt": "2024-04-02T20:50:15.340Z",
     "__v": 0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="ShouldBeabletodeleteTOdo" classname="com.qacart.todo.testcases.TodoTest" time="74.634">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-testid=&quot;delete&quot;]&quot;}&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f45a445cb37a2d5ed47eb148475954a7, findElement {using=css selector, value=[data-testid=&quot;delete&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50431/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f45a445cb37a2d5ed47eb148475954a7" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="ShouldBeabletodeleteTOdo" classname="com.qacart.todo.testcases.TodoTest" time="55.033">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-testid=&quot;delete&quot;]&quot;}&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [883ee8020096087426ca05a8289d4fe1, findElement {using=css selector, value=[data-testid=&quot;delete&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51650/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 883ee8020096087426ca05a8289d4fe1" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid="delete"]"}
   (Session info: chrome=123.0.6312.86)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f45a445cb37a2d5ed47eb148475954a7, findElement {using=css selector, value=[data-testid="delete"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50431/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f45a445cb37a2d5ed47eb148475954a7
+Command: [883ee8020096087426ca05a8289d4fe1, findElement {using=css selector, value=[data-testid="delete"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51650/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 883ee8020096087426ca05a8289d4fe1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -209,7 +209,7 @@ Session ID: f45a445cb37a2d5ed47eb148475954a7
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
 	at com.qacart.todo.pages.TodoPage.DLETETODO(TodoPage.java:74)
 	at com.qacart.todo.testcases.TodoTest.ShouldBeabletodeleteTOdo(TodoTest.java:147)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

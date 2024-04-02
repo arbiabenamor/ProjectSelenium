@@ -16,9 +16,8 @@ jobs:
           java-version: "17"
           cache: maven
           distribution: "temurin"
-
       - uses: browser-actions/setup-chrome@latest
-      - run: mvn clean test 
+      - run: mvn clean test
 
       # Ajoutez ici d'autres étapes de votre workflow
 

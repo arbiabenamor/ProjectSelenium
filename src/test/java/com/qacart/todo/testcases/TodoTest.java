@@ -18,7 +18,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-// les 2 tests casess shares ml classe BaseTest , yet9asmou el driver elli fil classe BaseTest : donc wa9t testcase loula tabda execution , tji thenya w ta3ml initialise donc la 1er valeur mta3 l browser va etre supprimé
+// les 2 tests casess  shares ml classe BaseTest , yet9asmou el driver elli fil classe BaseTest : donc wa9t testcase loula tabda execution , tji thenya w ta3ml initialise donc la 1er valeur mta3 l browser va etre supprimé
 //=> donc bel testNG bech n7awlou n7elou l probléme hedha w n5aliw kol test case 3adnha el separate intance mn hal driver en utilisant laclasse thread_locals : ya3ni bech n5aliw driver ykoun unique lkol thread (ouverture de chrome)
 @Feature("Todo Feature")
 public class TodoTest extends BaseTest { // kol ma nzidou classe jdida l ay testcase jdida owel 7aja na3mlouha inheritance lel clase BaseTest
