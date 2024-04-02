@@ -78,5 +78,8 @@ public class LoginTest extends BaseTest {
 // le testNG pour build tetscases
 //allure serve allure-results : pour transformer les fichier json en html sousforme de report
 //allure --version
+//mvn clean test
+//mvn test -Dtest=LoginTest
+//mvn clean test -Dbrowser=FIREFOX
 
 
