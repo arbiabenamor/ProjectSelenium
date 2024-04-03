@@ -18,6 +18,6 @@ jobs: # trigger bech na3mlha lel jobs
           distribution: "temurin"
       - uses: browser-actions/setup-chrome@latest
       - run: mvn clean test # la ligne de commende pour executer les testscases
-# ==> voila notre github action
+# ==> voila notre github_action
       # Ajoutez ici d'autres étapes de votre workflow
 

@@ -97,7 +97,7 @@ un devloppeur traville sur Todotest , il a modifier qq chose w y7eb yajouti el c
 si tous les tests cases mte3na pass bel code jdid , donc github va leui permettre bech ya3ml fusionnement lel code modifier : => CICD
 on fait creation de : .github\workflows\main.yml : main.yml n7otou fih kol code w el steps elli bech na3mlouhom
 githubActions = workflows : main.yml
-
+commit se fait par githubdesktop et push par gitGUI ou terminal
 
 
 */
