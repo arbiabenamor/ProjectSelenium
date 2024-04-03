@@ -1,23 +1,23 @@
 
-name: Run Selenium Test
+name: Run Selenium Test  # le nom d'action
 
-on:
-  push:
-    branches: ["master"]
+on: # trigger
+  push: #trigger : le declenchement se fait quand je fais push lel code mte3i
+    branches: ["master"]   #on spacifie de quel branche
+ # => on veut crée Github action  son trigger "on push sur master"
 
-
-jobs:
-  test:
+jobs: # trigger bech na3mlha lel jobs
+  test: # juste on va faire run , on a nommé test
     runs-on: windows-latest  # Spécifie que le job s'exécute sur Windows
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-java@v3
+    steps: #exécution l steps specifiques
+      - uses: actions/checkout@v3 #github yemchi ya3ml copie lel code w y7potou 3al machine windows
+      - uses: actions/setup-java@v3 #nhabtou java 3al machine
         with:
           java-version: "17"
           cache: maven
           distribution: "temurin"
       - uses: browser-actions/setup-chrome@latest
-      - run: mvn test -Dtest=LoginTest
-
+      - run: mvn clean test # la ligne de commende pour executer les testscases
+# ==> voila notre github action
       # Ajoutez ici d'autres étapes de votre workflow
 

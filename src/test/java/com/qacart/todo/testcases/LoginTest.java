@@ -81,5 +81,25 @@ public class LoginTest extends BaseTest {
 //mvn clean test
 //mvn test -Dtest=LoginTest
 //mvn clean test -Dbrowser=FIREFOX
+/*
+ GitHuB:
+ on va faire run lel automation mte3na sur github , en utilisant githubdesktop et gitgui pour push
+ 1/on fait creation de repository ou on va deposer le projet
+ 2/$ git init
+ 3/localiser ou on va deposer : $ git remote add origin https://github.com/arbiabenamor/QacartProjectSelenium.git
+ 4/$ git status
+ 5/$ git add .
+ 6/$ git commit -m "first commit" le message envoyé avec chaque modification
+ 3/ le depot de notre projet sur github : $ git push -f origin master
+///
+ki na3mlou push lel projet sur github tsir trigger = declenechement lel action elli fil github bech ylanci run lel test
+un devloppeur traville sur Todotest , il a modifier qq chose w y7eb yajouti el code 3al github , 9bal ma ya3ml el 7aja edhika , na3mlou run lel testcases mte3na
+si tous les tests cases mte3na pass bel code jdid , donc github va leui permettre bech ya3ml fusionnement lel code modifier : => CICD
+on fait creation de : .github\workflows\main.yml : main.yml n7otou fih kol code w el steps elli bech na3mlouhom
+githubActions = workflows : main.yml
+
+
+
+*/
 
 
